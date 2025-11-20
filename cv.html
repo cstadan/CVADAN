@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portafolio Profesional</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="overflow-x-hidden">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+  <div class="container-fluid">
+    <div class="row flex-md-nowrap">
+
+      <!-- Navbar lateral (escritorio) -->
+      <nav class="col-md-2 bg-dark border-end p-3 vh-100 d-none d-md-block sticky-top">
+        <a href="#top" class="fw-semibold fs-5 text-light text-decoration-none mb-2 d-block link-secondary">Mi Portafolio</a>
+        <ul class="nav flex-column">
+          <li class="nav-item"><a class="nav-link link-secondary text-light" href="#perfil">Perfil Profesional</a></li>
+          <li class="nav-item"><a class="nav-link link-secondary text-light" href="#habilidades">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link link-secondary text-light" href="#experiencia">Experiencia Laboral</a></li>
+          <li class="nav-item"><a class="nav-link link-secondary text-light" href="#formacion">Formación Académica</a></li>
+          <li class="nav-item"><a class="nav-link link-secondary text-light" href="#certificaciones">Certificaciones</a></li>
+          <li class="nav-item"><a class="nav-link link-secondary text-light" href="#contacto">Datos de Contacto</a></li>
+        </ul>
+      </nav>
+
+      <!-- Navbar superior (móviles) -->
+      <nav class="navbar navbar-light bg-dark sticky-top d-md-none">
+        <div class="container-fluid">
+          <a href="#top" class="navbar-brand fw-semibold text-light text-decoration-none link-secondary">Mi Portafolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuMovil">
+            <span class="navbar-toggler-icon" style="filter: invert(100%);"></span>
+          </button>
+
+        </div>
+        <div class="collapse" id="menuMovil">
+          <ul class="nav flex-column p-3">
+            <li class="nav-item"><a class="nav-link link-secondary text-light" href="#perfil" onclick="cerrarMenu()">Perfil Profesional</a></li>
+            <li class="nav-item"><a class="nav-link link-secondary text-light" href="#habilidades" onclick="cerrarMenu()">Habilidades</a></li>
+            <li class="nav-item"><a class="nav-link link-secondary text-light" href="#experiencia" onclick="cerrarMenu()">Experiencia Laboral</a></li>
+            <li class="nav-item"><a class="nav-link link-secondary text-light" href="#formacion" onclick="cerrarMenu()">Formación Académica</a></li>
+            <li class="nav-item"><a class="nav-link link-secondary text-light" href="#certificaciones" onclick="cerrarMenu()">Certificaciones</a></li>
+            <li class="nav-item"><a class="nav-link link-secondary text-light" href="#contacto" onclick="cerrarMenu()">Datos de Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Contenido principal -->
+      <main id="top" class="col-12 col-md-9 py-4 px-3">
+
+        <!-- Perfil Profesional -->
+        <section id="perfil" class="container my-5">
+  <div>
+    <h2 id="perfil" class="mb-4 sticky-top text-center">Perfil Profesional</h2>
+  </div>
+  <div class="row justify-content-center align-items-center">
+    <!-- Imagen con margen a la derecha -->
+    <div class="col-md-4 col-12 mb-3">
+      <img src="cvpic.jpg" alt="Foto de perfil o CV" class="img-fluid rounded border" style="max-width: 220px;">
+    </div>
+
+    <!-- Texto centrado con márgenes equilibrados -->
+    <div class="col-md-6 offset-md-0 col-12">
+        <h3 class="fw-semibold text-center">Adán Castillo Rodríguez</h3>
+        <p class="mx-auto" style="max-width: 600px; text-align: justify;">
+          Estudiante de Ingeniería en Sistemas y Negocios Digitales cursando el 5to semestre en la Universidad en el IEST Anahuac Campus Tampico.
+          Programador autodidacta, especialista en creación de páginas web y soy jugador de poker profesional.
+          Una vez chambié en el otro lado, un buen jale la verdad, pagaban 16 dólares la hora y con eso me compré una pc.
+          Sé poner pisos, cargar pisos, taladrar, poner drywall, hablo inglés, español nativo, francés solo del 1 al 20 y algunas frases,
+          y me gusta pelear. Tengo 21 años, me gusta la chamba, de verdad, me encanta la chamba, nací por mi madre y moriré por la chamba.
+        </p>
+    </div>
+  </div>
+</section>
+
+        <!-- Habilidades -->
+        <section id="habilidades" class="mb-5">
+          <h2 class="mb-4">💻 Habilidades</h2>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Python, JavaScript, HTML/CSS</li>
+            <li class="list-group-item">Criptografía: AES, RSA, SHA</li>
+            <li class="list-group-item">Contabilidad financiera y analista de Crypto</li>
+          </ul>
+        </section>
+
+        <!-- Experiencia Laboral -->
+        <section id="experiencia" class="mb-5">
+          <h2 class="mb-4">💼 Experiencia Laboral</h2>
+          <div class="mb-4">
+            <li class="list-group-item"><strong>Administrador de redes</strong> - Cisco Packet Tracer (2025)</li>
+        <li class="list-group-item"><strong>Desarrollador de MongoDB</strong> - Proyectos académicos (2025)</li>
+        <li class="list-group-item"><strong>Armado y Mantenimiento de computadoras</strong> - Diagnostico de problemas técnicos</li>
+        <li class="list-group-item"><strong>Programación</strong> - HTML, CSS, PHP, Python, C++, MySQL, JS, Java</li>
+          </div>
+        </section>
+
+        <!-- Formación Académica -->
+        <section id="formacion" class="mb-5">
+          <h2 class="mb-4">🎓 Formación Académica</h2>
+          <div class="mb-3">
+            <li class="list-group-item"><strong>Primaria: </strong>Félix de Jesús Rougier (2011 - 2017)</li>
+        <li class="list-group-item"><strong>Secundaria: </strong>Félix de Jesús Rougier (2017 - 2020)</li>
+        <li class="list-group-item"><strong>Prepa: </strong>Universidad del Noreste (2020 - 2023)</li>
+        <li class="list-group-item"><strong>Universidad: </strong>Instituto de Estudios Superiores de Tamaulipas (2023 - Actualidad) - <strong><u>Licenciatura en Ingenieria en Sistemas y Negocios Digitales</u></strong></li>
+        
+          </div>
+        </section>
+
+        <!-- Certificaciones -->
+        <section id="certificaciones" class="mb-5">
+          <h2 class="mb-4">📜 Certificaciones</h2>
+          <ul class="list-group list-group-flush">
+        <li class="list-group-item">Diplomado en Criptografía Aplicada</li>
+        <li class="list-group-item">Certificacion en Creación de Protocolos de Investigación</li>
+          </ul>
+        </section>
+
+        <!-- Datos de Contacto -->
+        <section id="contacto" class="mb-5">
+          <h2 class="mb-4">Datos de Contacto</h2>
+          <ul class="list-unstyled">
+            <li><strong>📧 Correo:</strong> adan.castillo@iest.edu.mx</li>
+            <li><strong>📞 Teléfono:</strong> +52 833 435 7142</li>
+            <li><strong>📍 Ubicación:</strong> Tampico, Tamulipas</li>
+            <li><strong>🔗 Git:</strong> <a href="https://github.com/cstadan" target="_blank">cstadan</a></li>
+          </ul>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center py-4 border-top">
+          <p class="mb-0">© 2025 Adán Castillo Rodríguez. Todos los derechos reservados.</p>
+        </footer>
+
+      </main>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS + función para cerrar menú móvil -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    function cerrarMenu() {
+      const menu = document.getElementById('menuMovil');
+      const bsCollapse = bootstrap.Collapse.getInstance(menu);
+      if (bsCollapse) {
+        setTimeout(() => bsCollapse.hide(), 300);
+      }
+    }
+  </script>
+
+
+</body>
+</html>
